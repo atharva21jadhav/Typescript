@@ -12,7 +12,7 @@ export class StringOperationsService {
   {
     let num:number =0; 
     [...str].forEach(c =>{
-      if(c === c.toUpperCase()){
+      if(c === c.toUpperCase() && c !== ' '){
         num++;
       }
     });
