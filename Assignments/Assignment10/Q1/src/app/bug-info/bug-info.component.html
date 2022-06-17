@@ -1,0 +1,21 @@
+<form class="row row-cols-sm-auto">
+    <div class="col-12">
+      <div class="input-group">
+        <input class="form-control" placeholder="yyyy-mm-dd"
+               name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+        <img class="btn btn-outline-secondary" src="../../assets/calendar.png" alt="" srcset="" id ="calender"(click)="d.toggle()" type="button">
+      </div>
+    </div>
+</form>
+
+<div class="row">
+    <div class="col-sm-1">
+        <input id="changeHourStep" type="number" class="form-control form-control-sm" [(ngModel)]="hourStep" />
+    </div>
+    <div class="col-sm-1">
+        <input id="changeMinuteStep" type="number" class="form-control form-control-sm" [(ngModel)]="minuteStep" />
+    </div>
+    <div class="col-sm-1">
+        <input id="changeSecondStep" type="number" class="form-control form-control-sm" [(ngModel)]="secondStep" />
+    </div>
+</div>

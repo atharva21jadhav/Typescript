@@ -1,0 +1,13 @@
+#header{
+    background-color: gainsboro;
+    height: 120px;
+}
+
+#title{
+    text-align: center;
+}
+
+#sub-title{
+    padding-left: 50px;
+    color: gray;
+}

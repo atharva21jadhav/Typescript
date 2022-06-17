@@ -1,0 +1,24 @@
+
+.input-field {
+    display: inline-block;
+    position: relative;
+}
+
+.input-field label {
+    position: absolute;
+    top: 25px;
+    font-size:small;
+    padding-top: 10px;
+}
+
+label{
+    margin-left: 25px;
+}
+input{
+    width:525px;
+    margin-left:12px;
+}
+
+#lastName{
+    margin-bottom: 30px;
+}
