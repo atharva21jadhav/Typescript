@@ -7,6 +7,9 @@ import { MyRevPipe } from './my-rev.pipe';
 import { AddPipe } from './add.pipe';
 import { MultPipe } from './mult.pipe';
 import { MarvellousCheckPipe } from './marvellous-check.pipe';
+import { CompSuccessDirective } from './comp-success.directive';
+import { CompFailDirective } from './comp-fail.directive';
+import { CustomStyleDirective } from './custom-style.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { MarvellousCheckPipe } from './marvellous-check.pipe';
     MyRevPipe,
     AddPipe,
     MultPipe,
-    MarvellousCheckPipe
+    MarvellousCheckPipe,
+    CompSuccessDirective,
+    CompFailDirective,
+    CustomStyleDirective
   ],
   imports: [
     BrowserModule,
